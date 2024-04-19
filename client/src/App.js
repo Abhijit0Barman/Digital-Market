@@ -1,9 +1,12 @@
 // import Cart from "./features/cart/Cart";
 // import Counter from "./features/counter/Counter";
 // import ProductList from "./features/product-list/ProductList";
+// import ProductDetail from "./features/product-list/components/ProductDetail";
 import CartPage from "./pages/CartPage";
+import Checkout from "./pages/Checkout";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
+import ProductDetailPage from "./pages/ProductDetailPage";
 import SignupPage from "./pages/SignupPage";
 
 import {
@@ -29,6 +32,14 @@ const router = createBrowserRouter([
   {
     path: "/cart",
     element: <CartPage />,
+  },
+  {
+    path: "/checkout",
+    element: <Checkout />,
+  },
+  {
+    path: "/product-detail",
+    element: <ProductDetailPage />,
   },
 ]);
 
