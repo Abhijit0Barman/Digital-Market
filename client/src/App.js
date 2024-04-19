@@ -1,6 +1,7 @@
-import Cart from "./features/cart/Cart";
-import Counter from "./features/counter/Counter";
-import ProductList from "./features/product-list/ProductList";
+// import Cart from "./features/cart/Cart";
+// import Counter from "./features/counter/Counter";
+// import ProductList from "./features/product-list/ProductList";
+import CartPage from "./pages/CartPage";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/cart",
-    element: <Cart />,
+    element: <CartPage />,
   },
 ]);
 
